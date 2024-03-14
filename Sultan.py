@@ -1,15 +1,16 @@
 ###-------[IMPORT MODULES]-----------####
-
-import os
-import sys
-import time
-import uuid
-import json
-import string
-import random
-import requests
-from requests.exceptions import ConnectionError
-from concurrent.futures import ThreadPoolExecutor
+pkg update && pkg upgrade 
+pkg install python
+pip install requests
+pip install mechanize 
+pip install bs4
+pip install rich
+pip install flask
+pkg install git
+git clone 
+https://github.com/HridSultan/sultan
+cd sultan
+python sultan.py
 
 ###-------[BASIC COLORS]-----------####
 reset = "\033[0m"
