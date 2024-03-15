@@ -1,4 +1,15 @@
 ###-------[IMPORT MODULES]-----------####
+import os
+import sys
+import time
+import uuid
+import json
+import string
+import random
+import requests
+from requests.exceptions import ConnectionError
+from concurrent.futures import ThreadPoolExecutor
+
 pkg update && pkg upgrade 
 pkg install python
 pip install requests
